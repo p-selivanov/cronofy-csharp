@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofy", "src\Cronofy\Cronofy.csproj", "{43F5E20B-AC85-448D-A218-51B9CD248A83}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{857B7858-6537-4524-83B5-3D243E678E3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofy.Test", "test\Cronofy.Test\Cronofy.Test.csproj", "{5A8D2403-F256-45DA-A07D-6FFF9ABC9751}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{55A2633D-32D6-44AC-9E73-8F8C23F94F1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofy.Example", "src\Cronofy.Example\Cronofy.Example.csproj", "{CF032BE6-0BA4-44B8-92CA-9A47E741D6E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronofy", "src\Cronofy\Cronofy.csproj", "{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronofy.Example", "src\Cronofy.Example\Cronofy.Example.csproj", "{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronofy.Test", "test\Cronofy.Test\Cronofy.Test.csproj", "{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +19,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43F5E20B-AC85-448D-A218-51B9CD248A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43F5E20B-AC85-448D-A218-51B9CD248A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43F5E20B-AC85-448D-A218-51B9CD248A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43F5E20B-AC85-448D-A218-51B9CD248A83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A8D2403-F256-45DA-A07D-6FFF9ABC9751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A8D2403-F256-45DA-A07D-6FFF9ABC9751}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A8D2403-F256-45DA-A07D-6FFF9ABC9751}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A8D2403-F256-45DA-A07D-6FFF9ABC9751}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF032BE6-0BA4-44B8-92CA-9A47E741D6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF032BE6-0BA4-44B8-92CA-9A47E741D6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF032BE6-0BA4-44B8-92CA-9A47E741D6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF032BE6-0BA4-44B8-92CA-9A47E741D6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7897ADE9-9B2F-4BE3-9CEF-17BBEED985A9} = {857B7858-6537-4524-83B5-3D243E678E3B}
+		{0D970953-2CAB-4AB6-AB48-1CEC5899B3C4} = {857B7858-6537-4524-83B5-3D243E678E3B}
+		{B4CC59DA-FD95-4C79-8121-3AE600BBFC7A} = {55A2633D-32D6-44AC-9E73-8F8C23F94F1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {007D75D3-88E1-4312-895A-3B429C9DDB1B}
 	EndGlobalSection
 EndGlobal
